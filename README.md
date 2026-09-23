@@ -19,7 +19,9 @@ If a contiguous tensor would still exceed the signed-int32-safe range, the node 
 
 ## Installation
 
-Copy or link this directory into `ComfyUI/custom_nodes`, then restart ComfyUI.
+`git clone https://github.com/npc97/ComfyUI-Sage-Attention-Fix`
+
+Copy or this directory into `ComfyUI/custom_nodes`, then restart ComfyUI.
 
 ## Placement
 

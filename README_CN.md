@@ -19,7 +19,9 @@
 
 ## 安装
 
-将本文件夹复制或链接到 `ComfyUI/custom_nodes`，然后重启 ComfyUI。
+`git clone https://github.com/npc97/ComfyUI-Sage-Attention-Fix`
+
+将文件夹复制到 `ComfyUI/custom_nodes`，然后重启 ComfyUI。
 
 ## 放置位置
 
