@@ -5,7 +5,7 @@
 
 ## Introduction
 
-If you have enabled global Sage Attention but, for any reason, do not want to use `Patch Sage Attention KJ` or `MiniMax H3 Mem Eff Sage Attention Patch` in the model loading chain, you may encounter [SageAttention issue #386](https://github.com/thu-ml/SageAttention/issues/386), which can cause corrupted frames in generated videos.
+If you have enabled global Sage Attention but, for any reason, do not want to use `Patch Sage Attention KJ`, `MiniMax H3 Mem Eff Sage Attention Patch` and any other attentions in the model loading chain, you may encounter [SageAttention issue #386](https://github.com/thu-ml/SageAttention/issues/386), which can cause corrupted frames in generated videos.
 
 This node only guards against that issue and performs no additional processing.
 

@@ -3,7 +3,7 @@
 
 ## 简介
 
-如果你开启了全局Sage Attention，但是出于各种原因并不希望在model的加载链中使用Patch Sage Attention KJ或是MiniMax H3 Mem Eff Sage Attention Patch节点，那么你很有可能会遇到 [SageAttention issue #386](https://github.com/thu-ml/SageAttention/issues/386) 这个问题，从而导致生成的视频里出现花屏。
+如果你开启了全局Sage Attention，但是出于各种原因并不希望在model的加载链中使用 `Patch Sage Attention KJ` 、 `MiniMax H3 Mem Eff Sage Attention Patch` 以及其他任何注意力节点，那么你很有可能会遇到 [SageAttention issue #386](https://github.com/thu-ml/SageAttention/issues/386) 这个问题，从而导致生成的视频里出现花屏。
 
 这个节点只负责规避这个ISSUE，而不做任何额外的处理。
 
